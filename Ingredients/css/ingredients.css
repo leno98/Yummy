@@ -1,0 +1,80 @@
+/* S T A R T    N A V B A R */
+.custom_navber_toggler{
+    height: 100%;
+    width: 20%;
+    border: none;}
+
+.separate_icon{
+    width: 2rem;
+    height: 2rem;}
+
+.separate_icon i{
+    font-size: .9rem;
+    color: #212529;}
+
+.navbar{
+    position: fixed;
+    width: 22%;
+    height: 100vh;
+    z-index: 900;}
+
+.copyright{color: #999}
+/* E N D    N A V B A R */
+
+
+/* S T A R T     A R E A    S E C T I O N */
+.special-area{padding: 8rem 6rem 5rem 5rem;}
+.box_shadow{
+    height: 13rem;
+    overflow: hidden;
+    box-shadow: 0 0.5rem 1rem rgba(122, 121, 121, 0.15)!important;}
+#catName{padding-top: .5rem;}
+.inner-div{cursor: pointer;}
+/* E N D   A R E A    S E C T I O N */
+
+
+/* S T A R T     S E L E C T E D   A R E A    S E C T I O N */
+.categories{padding: 8rem 6rem 5rem 5rem;}
+
+#catName{
+    padding-top: .5rem;
+}
+.hover-layer{
+    background-color: rgba(255,255,255,.7);
+    transform: translateY(110%);
+    transition: 1.3s all;
+    cursor: pointer;}
+
+.cat-card{overflow: hidden;}
+
+.cat-card:hover .hover-layer{transform: translateY(0);}
+/* E N D   S E L E C T E D   A R E A    S E C T I O N */
+
+
+
+
+/* S T A R T    M E A L   D E T A I L S    S E C T I O N */
+.gradient-li li{
+    color: #155724;
+    border: 1px solid #d4edda;
+    background-color: #d4edda;}
+
+.taged-li li{
+    background-color: #f8d7da;
+    border: 1px solid #f8d7da;
+    color: #721c24;}
+
+.source{
+    background-color: #28a745;
+    border: 1px solid #28a745;
+    color: #fff;}
+
+.youtube{
+    background-color: #F70000;
+    border:1px solid #F70000; 
+    color: #fff;}
+
+.source:hover ,.youtube:hover{color: #fff;}
+
+.meal_details{display:none}
+/* E N D    M E A L   D E T A I L S    S E C T I O N */

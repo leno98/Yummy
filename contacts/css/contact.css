@@ -1,0 +1,45 @@
+/* S T A R T    N A V B A R */
+.custom_navber_toggler{
+    height: 100%;
+    width: 20%;
+    border: none;}
+
+.separate_icon{
+    width: 2rem;
+    height: 2rem;}
+
+.separate_icon i{
+    font-size: .9rem;
+    color: #212529;}
+
+.navbar{
+    position: fixed;
+    width: 22%;
+    height: 100vh;
+    z-index: 900;}
+
+.copyright{color: #999}
+/* E N D    N A V B A R */
+
+/*  */
+.contact{padding: 8rem 12rem;}
+.contact input{box-shadow: 0 .5rem 1rem rgba(241, 238, 238, 0.1)!important;}
+.alert{display: none;}
+.alert-danger{
+    color: #721c24;
+    background-color: #f8d7da;
+    border-color: #f5c6cb;}
+
+.form-control{
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid rgba(255,255,255,.7);
+    border-radius: 0;
+    color: #fff;
+    font-weight: 800;}
+
+.form-control:focus{
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid rgba(255,255,255,.7);
+    border-radius: 0;}

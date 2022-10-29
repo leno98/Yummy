@@ -1,0 +1,41 @@
+/* S T A R T    N A V B A R */
+.custom_navber_toggler{
+    height: 100%;
+    width: 20%;
+    border: none;}
+
+.separate_icon{
+    width: 2rem;
+    height: 2rem;}
+
+.separate_icon i{
+    font-size: .9rem;
+    color: #212529;}
+
+.navbar{
+    position: fixed;
+    width: 22%;
+    height: 100vh;
+    z-index: 900;}
+
+.copyright{color: #999}
+/* E N D    N A V B A R */
+
+
+/* S T A R T     C A T E G O R Y    S E C T I O N */
+.categories{padding: 8rem 6rem 5rem 5rem;}
+
+.hover-layer{
+    background-color: rgba(255,255,255,.7);
+    transform: translateY(100%);
+    transition: 1.3s all;
+    cursor: pointer;}
+
+.cat-card{overflow: hidden;}
+
+.cat-card:hover .hover-layer{transform: translateY(0);}
+/* E N D   C A T E G O R Y    S E C T I O N */
+
+.moving-part{
+    display: none;
+}

@@ -1,0 +1,48 @@
+/* S T A R T    N A V B A R */
+.custom_navber_toggler{
+    height: 100%;
+    width: 20%;
+    border: none;}
+
+.separate_icon{
+    width: 2rem;
+    height: 2rem;}
+
+.separate_icon i{
+    font-size: .9rem;
+    color: #212529;}
+
+.navbar{
+    position: fixed;
+    width: 22%;
+    height: 100vh;
+    z-index: 900;}
+
+.copyright{color: #999}
+/* E N D    N A V B A R */
+
+
+
+.all{padding: 8rem 10rem 8rem 12rem;}
+
+.gradient-li li{
+    color: #155724;
+    border: 1px solid #d4edda;
+    background-color: #d4edda;}
+
+.taged-li li{
+    background-color: #f8d7da;
+    border: 1px solid #f8d7da;
+    color: #721c24;}
+
+.source{
+    background-color: #28a745;
+    border: 1px solid #28a745;
+    color: #fff;}
+
+.youtube{
+    background-color: #F70000;
+    border:1px solid #F70000; 
+    color: #fff;}
+
+.source:hover ,.youtube:hover{color: #fff;}

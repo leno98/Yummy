@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/contact.css">
+</head>
+<body class="bg-black">
+    <!-- S T A R T    N A V B A R -->
+    <nav class="navbar navbar-expand-lg p-0">
+        <div class="moving-part d-flex flex-column ps-3 h-100 bg-black d-none">
+            <div class="collapse navbar-collapse accordion" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0 d-flex flex-column">
+                    <li class="nav-item">
+                        <a class="nav-link active text-white" aria-current="page" href="#">Search</a>
+                    </li>
+                    
+                    <li class="nav-item">
+                        <a class="nav-link active text-white" aria-current="page" href="#">Categories</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link active text-white" aria-current="page" href="#">Area</a>
+                    </li>
+                    
+                    <li class="nav-item">
+                        <a class="nav-link active text-white" aria-current="page" href="#">Ingredients</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link active text-white" aria-current="page" href="#">Contact Us</a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="mb-4">
+                <div class="icons d-flex mb-1">
+                    <div class="separate_icon rounded-circle d-flex align-items-center justify-content-center me-1">
+                        <i class="fa-brands fa-facebook-f"></i>
+                    </div>
+
+                    <div class="separate_icon rounded-circle d-flex align-items-center justify-content-center me-1">
+                        <i class="fa-brands fa-twitter"></i>
+                    </div>
+
+                    <div class="separate_icon rounded-circle d-flex align-items-center justify-content-center">
+                        <i class="fa-solid fa-globe"></i>
+                    </div>
+                </div>
+                <p class="copyright">Copyright Â© 2019 All Rights Reserved.</p>
+            </div>
+        </div>
+
+        <button class="custom_navber_toggler  d-flex flex-column align-items-center justify-content-between" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">  <!-- navbar-toggler -->
+            <img src="logo.png" class="mw-100 mt-4" alt="">
+            <span class="navbar-toggler-icon"></span>
+            <div class="mb-2">
+                <div class="separate_icon rounded-circle d-flex align-items-center justify-content-center">
+                    <i class="fa-solid fa-globe text-dark fs-6"></i>
+                </div>
+                
+                <div class="separate_icon rounded-circle d-flex align-items-center justify-content-center">
+                    <i class="fa-solid fa-share-nodes text-dark fs-6"></i>
+                </div>
+            </div>
+        </button>
+    </nav>
+    <!-- E N D    N A V B A R -->
+
+    <!-- S T A R T   C O N T A C T -->
+    <section>
+        <div class="contact text-center">
+            <h2 class="text-light mb-5">ContacUs...</h2>
+            <div class="row gx-3 gy-3">
+                <div class="col-md-6">
+                    <div class="form-group">
+                        <input class="form-control shadow" placeholder="Enter Your Name" id="name" type="text">
+                        <p class="alert alert-danger mt-1" id="name-alert">Special Characters and Numbers not allowed (Name can’t be less than 3 Characters)</p>
+                    </div>
+                </div>
+
+                <div class="col-md-6">
+                    <div class="form-group">
+                        <input class="form-control shadow" placeholder="Enter Your Email" id="email" type="email">
+                        <p class="alert alert-danger mt-1" id="email-alert">Enter valid email. *Ex: xxx@yyy.zzz</p>
+                    </div>
+                </div>
+
+                <div class="col-md-6">
+                    <div class="form-group">
+                        <input class="form-control shadow" placeholder="Enter Phone" id="phone-num" type="text">
+                        <p class="alert alert-danger mt-1" id="phone-alert">Enter valid Phone Number</p>
+                    </div>
+                </div>
+
+                <div class="col-md-6">
+                    <div class="form-group">
+                        <input class="form-control shadow" placeholder="Enter Age" id="age" type="text">
+                        <p class="alert alert-danger mt-1" id="age-alert">Enter valid Age</p>
+                    </div>
+                </div>
+
+                <div class="col-md-6">
+                    <div class="form-group">
+                        <input class="form-control shadow" placeholder="Enter Password" id="pass" type="password">
+                        <p class="alert alert-danger mt-1" id="pass-alert">Enter valid password *Minimum eight characters, at least one letter and one number:*</p>
+                    </div>
+                </div>
+
+                <div class="col-md-6">
+                    <div class="form-group">
+                        <input class="form-control shadow" placeholder="Enter RePassword" id="rePass" type="password">
+                        <p class="alert alert-danger mt-1" id="repass-alert">Enter valid Repassword</p>
+                    </div>
+                </div>
+            </div>
+            <button type="submit" disabled="true" id="submitBtn" class="btn btn-outline-danger mt-3">Submit</button>
+        </div>
+    </section>
+    <!-- E N D    C O N T A C T -->
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/jquery-3.6.1.min.js"></script>
+    <script src="js/contact.js"></script>
+</body>
+</html>
